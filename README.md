@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Etçi Kısmet - React Menu Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Etçi Kısmet restoranının menü sayfasının React ile yeniden yazılmış halidir.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- **Modern React Yapısı**: Functional components ve hooks kullanılarak oluşturulmuş
+- **Responsive Tasarım**: Mobil ve desktop uyumlu
+- **Kategori Bazlı Menü**: ETLER, SALATALAR, TATLILAR, İÇECEKLER, MEZELER
+- **Orijinal Tasarım**: Orijinal HTML/CSS tasarımına sadık kalınmış
+- **Bootstrap Entegrasyonu**: React Bootstrap kullanılarak responsive grid sistemi
 
-### `npm start`
+## Menü Kategorileri
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ETLER
+- ET, LOKUM, KÜŞLEME
+- T-BONE STEAK, DALLAS STEAKS, KÖFTE
+- SAÇ KAVURMA, KURBAN KAVURMA, SUCUK
+- TAVUK, ÇOCUK HAMBURGER, STEAK BURGER
+- CİĞER / BÖBREK
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### SALATALAR
+- MEVSİM SALATA, KAŞIK SALATA
+- ÇOBAN SALATA, GAVURDAĞ SALATA
 
-### `npm test`
+### TATLILAR
+- SÜTLAÇ, HAVUÇ DİLİM BAKLAVA, KABAK
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### İÇECEKLER
+- Su çeşitleri (Küçük/Büyük)
+- Gazlı içecekler (Kola, Sprite, Fanta)
+- Ice Tea, Ayran çeşitleri
+- Şalgam, Soda, Zafer
 
-### `npm run build`
+### MEZELER
+- Mezeler, Patates
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Teknolojiler
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React 18**
+- **Bootstrap 5**
+- **React Bootstrap**
+- **CSS3** (Custom styling)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Kurulum
 
-### `npm run eject`
+```bash
+# Bağımlılıkları yükle
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Development server'ı başlat
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Production build oluştur
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Proje Yapısı
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/
+│   ├── Header.js          # Header/Navbar componenti
+│   ├── Menu.js            # Ana menü componenti
+│   ├── MenuCategory.js    # Kategori componenti
+│   └── MenuItem.js        # Menü öğesi componenti
+├── App.js                 # Ana uygulama
+└── App.css               # Global stiller
+```
 
-## Learn More
+## Özellikler
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Responsive Design**: Tüm ekran boyutlarında uyumlu
+- **Hover Efektleri**: Menü öğelerinde interaktif animasyonlar
+- **Modern UI**: Gradient arka planlar ve gölge efektleri
+- **Türkçe/İngilizce/Rusça**: Çok dilli menü açıklamaları
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Renk Paleti
 
-### Code Splitting
+- **Ana Renk**: #8B4513 (Saddle Brown)
+- **İkincil Renk**: #A0522D (Sienna)
+- **Arka Plan**: #f8f9fa (Light Gray)
+- **Metin**: #111111 (Dark Gray)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Geliştirici
 
-### Analyzing the Bundle Size
+[Hakan Acar](https://github.com/hakanacardev)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Lisans
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bu proje MIT lisansı altında lisanslanmıştır.

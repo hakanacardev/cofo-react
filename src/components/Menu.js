@@ -108,7 +108,7 @@ const Menu = () => {
           name: "MEVSİM SALATA",
           nameEn: "SEASONAL SALAD, СЕЗОННЫЙ САЛАТ",
           price: "TEK 150 TL / DOUBLE 250 TL",
-          image: "/images/mevsımsalata.png"
+          image: "/images/mevsimsalata.png"
         },
         {
           id: 15,
@@ -216,7 +216,7 @@ const Menu = () => {
           name: "AÇIK AYRAN",
           nameEn: "OPEN AYRAN, ОТКРЫТЫЙ АЙРАН",
           price: "60 TL",
-          image: "/images/acıkayran.jpg"
+          image: "/images/acikayran.jpg"
         },
         {
           id: 29,
