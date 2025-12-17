@@ -18,7 +18,7 @@ const Menu = () => {
           id: 2,
           name: "LOKUM",
           nameEn: "TURKISH BONELESS, РАХАТ ЛУКУМ",
-          price: "2500 TL / KG",
+          price: "3000 TL / KG",
           image: "/images/lokum.jpeg"
         },
         {

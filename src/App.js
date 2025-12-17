@@ -15,7 +15,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu.html" element={<Menu />} />
-          <Route path="/menu" element={<Navigate to="/menu.html" replace />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
