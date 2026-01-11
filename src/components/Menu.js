@@ -53,14 +53,14 @@ const Menu = () => {
           id: 7,
           name: "SAÇ KAVURMA",
           nameEn: "SAÇ KAVURMA, САЧ КАВУРМА",
-          price: "450 TL",
+          price: "700 TL",
           image: "/images/sackaburma.png"
         },
         {
           id: 8,
           name: "KURBAN KAVURMA",
           nameEn: "SACRIFICE KAVURMA, ЖЕРТВЕННАЯ КАВУРМА",
-          price: "450 TL",
+          price: "700 TL",
           image: "/images/kurbankavurma.png"
         },
         {
