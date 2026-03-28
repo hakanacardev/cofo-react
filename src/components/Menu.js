@@ -72,27 +72,13 @@ const Menu = () => {
         },
         {
           id: 10,
-          name: "TAVUK",
-          nameEn: "CHICKEN, КУРИЦА",
-          price: "1500 TL / KG",
-          image: "/images/tavuk.jpg"
-        },
-        {
-          id: 11,
           name: "ÇOCUK HAMBURGER",
           nameEn: "KIDS BURGER, ДЕТСКИЙ БУРГЕР",
           price: "450 TL",
           image: "/images/cocuk-hamburger.jpg"
         },
         {
-          id: 12,
-          name: "STEAK BURGER(ANTRİKOT)",
-          nameEn: "STEAK BURGER (RIB EYE), СТЕЙК БУРГЕР (РИБАЙ)",
-          price: "550 TL",
-          image: "/images/steak-hamburger.jpg"
-        },
-        {
-          id: 13,
+          id: 11,
           name: "CİĞER / BÖBREK",
           nameEn: "LIVER / KIDNEY, ПЕЧЕНЬ / ПОЧКИ",
           price: "2600 TL / KG",
@@ -104,28 +90,28 @@ const Menu = () => {
       title: "SALATALAR",
       items: [
         {
-          id: 14,
+          id: 12,
           name: "MEVSİM SALATA",
           nameEn: "SEASONAL SALAD, СЕЗОННЫЙ САЛАТ",
           price: "TEK 190 TL / DOUBLE 300 TL",
           image: "/images/mevsimsalata.png"
         },
         {
-          id: 15,
+          id: 13,
           name: "KAŞIK SALATA",
           nameEn: "SPOON SALAD, ЛОЖЕЧНЫЙ САЛАТ",
           price: "TEK 190 TL / DOUBLE 300 TL",
           image: "/images/kasiksalata_1.jpg"
         },
         {
-          id: 16,
+          id: 14,
           name: "ÇOBAN SALATA",
           nameEn: "SHEPHERD SALAD, ПАСТУШИЙ САЛАТ",
           price: "TEK 190 TL / DOUBLE 300 TL",
           image: "/images/cobansalata.jpg"
         },
         {
-          id: 17,
+          id: 15,
           name: "GAVURDAĞ SALATA",
           nameEn: "GAVURDAĞ SALAD, ГАВУРДАГ САЛАТ",
           price: "TEK 220 TL / DOUBLE 350 TL",
@@ -137,21 +123,21 @@ const Menu = () => {
       title: "TATLILAR",
       items: [
         {
-          id: 18,
+          id: 16,
           name: "SÜTLAÇ",
           nameEn: "RICE PUDDING, РИСОВЫЙ ПУДИНГ",
           price: "200 TL",
           image: "/images/sutlac.jpg"
         },
         {
-          id: 19,
+          id: 17,
           name: "HAVUÇ DİLİM BAKLAVA",
           nameEn: "CARROT SLICE BAKLAVA, МОРКОВНЫЙ ЛОМТИК БАКЛАВА",
           price: "250 TL",
           image: "/images/hbaklava.webp"
         },
         {
-          id: 20,
+          id: 18,
           name: "KABAK",
           nameEn: "PUMPKIN DESSERT, ТЫКВЕННЫЙ ДЕСЕРТ",
           price: "250 TL",
@@ -163,77 +149,77 @@ const Menu = () => {
       title: "İÇECEKLER",
       items: [
         {
-          id: 21,
+          id: 19,
           name: "KÜÇÜK SU",
           nameEn: "SMALL WATER, МАЛЕНЬКАЯ ВОДА",
           price: "35 TL",
           image: "/images/kerikli.webp"
         },
         {
-          id: 22,
+          id: 20,
           name: "BÜYÜK SU",
           nameEn: "LARGE WATER, БОЛЬШАЯ ВОДА",
           price: "60 TL",
           image: "/images/kerikli.webp"
         },
         {
-          id: 23,
+          id: 21,
           name: "KOLA",
           nameEn: "COLA, КОЛА",
           price: "80 TL",
           image: "/images/kkola.jpeg"
         },
         {
-          id: 24,
+          id: 22,
           name: "ICE TEA",
           nameEn: "ICE TEA, ХОЛОДНЫЙ ЧАЙ",
           price: "80 TL",
           image: "/images/fusetea.webp"
         },
         {
-          id: 25,
+          id: 23,
           name: "SPRİTE",
           nameEn: "SPRITE, СПРАЙТ",
           price: "80 TL",
           image: "/images/sprite.jpeg"
         },
         {
-          id: 26,
+          id: 24,
           name: "FANTA",
           nameEn: "FANTA, ФАНТА",
           price: "80 TL",
           image: "/images/fanta.jpeg"
         },
         {
-          id: 27,
+          id: 25,
           name: "AYRAN",
           nameEn: "AYRAN, АЙРАН",
           price: "70 TL",
           image: "/images/ayran.jpg"
         },
         {
-          id: 28,
+          id: 26,
           name: "AÇIK AYRAN",
           nameEn: "OPEN AYRAN, ОТКРЫТЫЙ АЙРАН",
           price: "70 TL",
           image: "/images/acikayran.jpg"
         },
         {
-          id: 29,
+          id: 27,
           name: "ZAFER",
           nameEn: "ZAFER, ЗАФЕР",
           price: "70 TL",
           image: "/images/zafer2-removebg-preview.png"
         },
         {
-          id: 30,
+          id: 28,
           name: "ŞALGAM",
           nameEn: "TURNIP JUICE, СОК РЕПЫ",
           price: "70 TL",
           image: "/images/salgam.jpg"
         },
         {
-          id: 31,
+          id: 29,
           name: "SODA",
           nameEn: "SODA, СОДА",
           price: "60 TL",
@@ -245,14 +231,14 @@ const Menu = () => {
       title: "MEZELER",
       items: [
         {
-          id: 32,
+          id: 30,
           name: "MEZELER",
           nameEn: "APPETIZERS, ЗАКУСКИ",
           price: "190 TL",
           image: "/images/meze.jpeg"
         },
         {
-          id: 33,
+          id: 31,
           name: "PATATES",
           nameEn: "POTATOES, КАРТОФЕЛЬ",
           price: "TEK 230 TL / DOUBLE 350 TL",
