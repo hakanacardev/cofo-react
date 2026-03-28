@@ -11,35 +11,35 @@ const Menu = () => {
           id: 1,
           name: "ET",
           nameEn: "MEAT, МЯСО",
-          price: "2400 TL / KG",
+          price: "2600 TL / KG",
           image: "/images/et.jpeg"
         },
         {
           id: 2,
           name: "LOKUM",
           nameEn: "TURKISH BONELESS, РАХАТ ЛУКУМ",
-          price: "3000 TL / KG",
+          price: "3300 TL / KG",
           image: "/images/lokum.jpeg"
         },
         {
           id: 3,
           name: "KÜŞLEME",
           nameEn: "TENDERLOIN, ВЫРЕЗКА",
-          price: "3000 TL / KG",
+          price: "3300 TL / KG",
           image: "/images/kusleme.jpeg"
         },
         {
           id: 4,
           name: "T-BONE STEAK",
           nameEn: "T-BONE STEAK, Т-БОН СТЕЙК",
-          price: "2400 TL / KG",
+          price: "2600 TL / KG",
           image: "/images/tbone.jpeg"
         },
         {
           id: 5,
           name: "DALLAS STEAKS",
           nameEn: "DALLAS STEAKS, ДАЛЛАС СТЕЙКИ",
-          price: "2400 TL / KG",
+          price: "2600 TL / KG",
           image: "/images/dallas.png"
         },
         {
@@ -53,14 +53,14 @@ const Menu = () => {
           id: 7,
           name: "SAÇ KAVURMA",
           nameEn: "SAÇ KAVURMA, САЧ КАВУРМА",
-          price: "700 TL",
+          price: "750 TL",
           image: "/images/sackaburma.png"
         },
         {
           id: 8,
           name: "KURBAN KAVURMA",
           nameEn: "SACRIFICE KAVURMA, ЖЕРТВЕННАЯ КАВУРМА",
-          price: "700 TL",
+          price: "750 TL",
           image: "/images/kurbankavurma.png"
         },
         {
@@ -95,7 +95,7 @@ const Menu = () => {
           id: 13,
           name: "CİĞER / BÖBREK",
           nameEn: "LIVER / KIDNEY, ПЕЧЕНЬ / ПОЧКИ",
-          price: "2400 TL / KG",
+          price: "2600 TL / KG",
           image: "/images/ciger.jpeg"
         }
       ]
@@ -107,28 +107,28 @@ const Menu = () => {
           id: 14,
           name: "MEVSİM SALATA",
           nameEn: "SEASONAL SALAD, СЕЗОННЫЙ САЛАТ",
-          price: "TEK 180 TL / DOUBLE 300 TL",
+          price: "TEK 190 TL / DOUBLE 300 TL",
           image: "/images/mevsimsalata.png"
         },
         {
           id: 15,
           name: "KAŞIK SALATA",
           nameEn: "SPOON SALAD, ЛОЖЕЧНЫЙ САЛАТ",
-          price: "TEK 180 TL / DOUBLE 300 TL",
+          price: "TEK 190 TL / DOUBLE 300 TL",
           image: "/images/kasiksalata_1.jpg"
         },
         {
           id: 16,
           name: "ÇOBAN SALATA",
           nameEn: "SHEPHERD SALAD, ПАСТУШИЙ САЛАТ",
-          price: "TEK 180 TL / DOUBLE 300 TL",
+          price: "TEK 190 TL / DOUBLE 300 TL",
           image: "/images/cobansalata.jpg"
         },
         {
           id: 17,
           name: "GAVURDAĞ SALATA",
           nameEn: "GAVURDAĞ SALAD, ГАВУРДАГ САЛАТ",
-          price: "TEK 200 TL / DOUBLE 350 TL",
+          price: "TEK 220 TL / DOUBLE 350 TL",
           image: "/images/gavurdag.jpg"
         }
       ]
@@ -248,7 +248,7 @@ const Menu = () => {
           id: 32,
           name: "MEZELER",
           nameEn: "APPETIZERS, ЗАКУСКИ",
-          price: "180 TL",
+          price: "190 TL",
           image: "/images/meze.jpeg"
         },
         {
